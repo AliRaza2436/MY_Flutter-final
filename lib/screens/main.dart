@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:my_new_app/screens/ColScreen.dart';
-import 'package:my_new_app/screens/Imagesicon.dart';
-import 'package:my_new_app/screens/profilescreen.dart';
-import 'package:my_new_app/screens/row_screen.dart';
-import 'package:my_new_app/screens/Buttonscreen.dart ';
+import 'package:my_new_app/onePageApp/Home_Screen.dart';
+import 'package:my_new_app/onePageApp/Parent_screen.dart';
+import 'package:my_new_app/onePageApp/alarm_Screen.dart';
+import 'package:my_new_app/onePageApp/setting_Screen.dart';
+import 'package:my_new_app/screens/Login_Screen.dart';
+import 'package:my_new_app/screens/input_screen.dart';
+
 void main() {
   runApp(
     MaterialApp(
-      home: profilescreen(),
+      debugShowCheckedModeBanner: false,
+      home: LoginScreen(),
     ),
   );
 }
