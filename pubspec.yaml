@@ -38,6 +38,7 @@ dependencies:
   fluttertoast: ^10.0.0
   awesome_dialog: ^3.3.0
   awesome_snackbar_content: ^0.1.8
+  lottie: ^3.6.1
 
 dev_dependencies:
   flutter_test:
@@ -59,7 +60,7 @@ flutter:
 
   assets:
     - assets/images/
-
+    - assets/anim/
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

@@ -24,7 +24,7 @@ class LoginScreenState extends State {
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
         backgroundColor: Colors.orange.shade200,
-        title: Text("login Page "),
+        title: Text("Ali Raza Page "),
       ),
       body: Container(
         alignment: Alignment.center,
